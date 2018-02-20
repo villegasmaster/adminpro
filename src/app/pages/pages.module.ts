@@ -12,6 +12,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 // Graficas
 import { ChartsModule } from 'ng2-charts';
 import { GraficaDonutComponent } from '../components/grafica-donut/grafica-donut.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -22,7 +23,8 @@ import { GraficaDonutComponent } from '../components/grafica-donut/grafica-donut
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficaDonutComponent
+        GraficaDonutComponent,
+        AccountSettingsComponent
       ],
       exports: [
         DashboardComponent,

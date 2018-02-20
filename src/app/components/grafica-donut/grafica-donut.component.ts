@@ -22,7 +22,7 @@ export class GraficaDonutComponent implements OnInit {
   }
 
   crearGrafico (graficos) {
-    console.log(graficos);
+    // console.log(graficos);
 
     this.doughnutChartLabels = graficos.labels;
     this.doughnutChartData = graficos.data;
